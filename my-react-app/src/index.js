@@ -88,7 +88,7 @@ class Game extends React.Component {
     
         const moves = history.map((step, move) => {
             const desc = move ?
-                'Mene siirtoon #' + move :
+                'Pikainen bugfixi #' + move :
                 'Mene pelin alkuun';
             return (
                 <li key={move}>
